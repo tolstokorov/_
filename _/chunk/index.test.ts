@@ -4,7 +4,7 @@
 // _.chunk(['a', 'b', 'c', 'd'], 3);
 // // => [['a', 'b', 'c'], ['d']]
 
-import { chunk } from ".";
+import { chunk } from "./index";
 
 describe('chunk', () => {
     test('empty array', () => {
