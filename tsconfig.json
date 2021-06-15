@@ -1,0 +1,14 @@
+{
+    "include": [
+        "./_"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    },
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "strict": true
+    }
+}
