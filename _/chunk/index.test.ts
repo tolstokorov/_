@@ -18,7 +18,7 @@ describe('chunk', () => {
     test('split evenly', () => {
         expect(chunk(['a', 'b', 'c', 'd'], 2)).toEqual([['a', 'b'], ['c', 'd']]);
     });
-    test('not split evenly', () => {
+    test('split not evenly', () => {
         expect(chunk(['a', 'b', 'c', 'd'], 3)).toEqual([['a', 'b', 'c'], ['d']]);
     });
 });
